@@ -13,3 +13,9 @@ UML {
   # = Protegido
 
 }
+
+Métodos Acessores OU Getters ( Forma mais conhecida ) {
+  Significado: Um Getter é como se fosse uma adentende de supermecado, você entrega
+  o dinheiro para a adentende e ela guarda o dinheiro no caixa e lhê devolve o troco,
+  ao invés de você ter a permissão de guardar o dinheiro.
+}
