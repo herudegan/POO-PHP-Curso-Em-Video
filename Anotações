@@ -14,21 +14,39 @@ UML {
 
 }
 
-MÃ©todos Acessores OU Getters ( Forma mais conhecida ) {
-  Significado: Um Getter Ã© como se fosse uma adentende de supermecado, vocÃª entrega
-  o dinheiro para a adentende e ela guarda o dinheiro no caixa e lhÃª devolve o troco,
-  ao invÃ©s de vocÃª ter a permissÃ£o de guardar o dinheiro.
+Métodos Acessores OU Getters ( Forma mais conhecida ) {
+  Significado: Um Getter é como se fosse uma adentende de supermecado, você entrega
+  o dinheiro para a adentende e ela guarda o dinheiro no caixa e lhê devolve o troco,
+  ao invés de você ter a permissão de guardar o dinheiro.
 }
 
-MÃ©todos Modificadores OU Setters ( Forma mais conhecida ) {
-  Significado: Um mÃ©todo Setter, tambÃ©m conhecido como mÃ©todo modificador, Ã© uma funÃ§Ã£o
+Métodos Modificadores OU Setters ( Forma mais conhecida ) {
+  Significado: Um método Setter, também conhecido como método modificador, é uma função
   utilizada para atribuir um valor a um atributo de um objeto. Ele permite alterar o 
-  valor de um atributo privado de uma classe, seguindo as regras e restriÃ§Ãµes definidas 
+  valor de um atributo privado de uma classe, seguindo as regras e restrições definidas 
   pela classe.
 }
 
-MÃ©todo Construtor OU Construct ( Forma mais conhecida ) {
-  Significado: Um mÃ©todo Contruct sempre serÃ¡ executado quando for instanciada uma nova
-  caneta por exemplo, diferente dos mÃ©todos Setters e Getters onde o desenvolvedor tem 
+Método Construtor OU Construct ( Forma mais conhecida ) {
+  Significado: Um método Contruct sempre serÃ¡ executado quando for instanciada uma nova
+  caneta por exemplo, diferente dos métodos Setters e Getters onde o desenvolvedor tem 
   que fazer o chamado da mesma.
+}
+
+Encapsulamente/Interface {
+  Significado: Uma interface é um contrato que define um conjunto de métodos que uma 
+  classe deve implementar. Uma interface não pode ser instanciada, mas pode ser 
+  implementada por uma classe. Uma classe pode implementar múltiplas interfaces.
+
+  require_once 'interface';
+  class example implements Interface {};
+}
+
+Herança {
+  Significado: A herança é um conceito da programação orientada a objetos que permite
+  criar uma nova classe a partir de uma classe já existente. A nova classe herda
+  características da classe existente, como atributos e métodos, e pode adicionar
+  novos atributos e métodos.
+
+  class example extends ClasseHerdada {};
 }
